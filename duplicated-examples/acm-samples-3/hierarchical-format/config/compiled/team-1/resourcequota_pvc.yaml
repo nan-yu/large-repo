@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: pvc
+  namespace: team-1
+spec:
+  hard:
+    persistentvolumeclaims: "3"
