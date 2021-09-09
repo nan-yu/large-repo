@@ -1,8 +1,0 @@
-image:
-  repository: quay.io/jetstack/cert-manager-controller
-  pullPolicy: Always
-
-cainjector:
-  image:
-    repository: quay.io/jetstack/cert-manager-cainjector
-    pullPolicy: Always
